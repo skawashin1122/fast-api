@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Shintoku": "World"}
+    return {"Shintoku_bbc": "World_941574_bbc.1122.2chan"}
 
 
 @app.get("/items/{item_id}")
